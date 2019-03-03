@@ -1,5 +1,6 @@
 def my_collect(array)
-   my_collection = []
+  my_collection = []
+  
   i = 0
   while i < array.length
     my_collection.push yield(array[i])
